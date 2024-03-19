@@ -99,8 +99,8 @@ public class LeaveFrame extends javax.swing.JDialog {
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        leaveTable.setBackground(new java.awt.Color(241, 234, 204));
-        leaveTable.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        leaveTable.setBackground(new java.awt.Color(255, 229, 219));
+        leaveTable.setFont(new java.awt.Font("Thonburi", 1, 12)); // NOI18N
         leaveTable.setForeground(new java.awt.Color(0, 51, 102));
         leaveTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -119,35 +119,45 @@ public class LeaveFrame extends javax.swing.JDialog {
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 19, 635, 292));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204), 5));
+        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 229, 219), 5));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Thonburi", 1, 11)); // NOI18N
         jLabel1.setText("Leave Details");
 
+        jLabel3.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         jLabel3.setText("Employee Number:");
 
+        jLabel4.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         jLabel4.setText("Type of Leave:");
 
+        leaveTypecb.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         leaveTypecb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sick Leave", "Vacation Leave", "Emergency Leave" }));
 
+        jLabel5.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         jLabel5.setText("Number of Days:");
 
+        dayscb.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         dayscb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
 
         employeeNumTextField.setEditable(false);
+        employeeNumTextField.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         employeeNumTextField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 employeeNumTextFieldActionPerformed(evt);
             }
         });
 
+        jLabel16.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         jLabel16.setText("Last Name:");
 
         lNameTextField.setEditable(false);
+        lNameTextField.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
 
+        jLabel17.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         jLabel17.setText("First Name:");
 
         fNameTextField.setEditable(false);
+        fNameTextField.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         fNameTextField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fNameTextFieldActionPerformed(evt);
@@ -207,44 +217,57 @@ public class LeaveFrame extends javax.swing.JDialog {
                 .addGap(51, 51, 51))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 330, 300, 240));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 330, 300, 240));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204), 5));
+        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 229, 219), 5));
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Thonburi", 1, 12)); // NOI18N
         jLabel6.setText("Leave Duration");
 
-        jLabel8.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Thonburi", 1, 11)); // NOI18N
         jLabel8.setText("Start Date:");
 
+        jLabel9.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         jLabel9.setText("Year:");
 
+        jLabel10.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         jLabel10.setText("Month:");
 
+        jLabel11.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         jLabel11.setText("Date:");
 
-        jLabel12.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("Thonburi", 1, 11)); // NOI18N
         jLabel12.setText("End Date:");
 
+        jLabel13.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         jLabel13.setText("Year:");
 
+        jLabel14.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         jLabel14.setText("Month:");
 
+        jLabel15.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         jLabel15.setText("Date:");
 
+        y2cb.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         y2cb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2022" }));
 
+        m2cb.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         m2cb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" }));
 
+        d2cb.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         d2cb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
 
+        jLabel2.setFont(new java.awt.Font("Thonburi", 1, 11)); // NOI18N
         jLabel2.setText("Date Filed:");
 
+        y1cb.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         y1cb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2022" }));
 
+        m1cb.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         m1cb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" }));
 
+        d1cb.setFont(new java.awt.Font("Thonburi", 0, 11)); // NOI18N
         d1cb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -345,13 +368,13 @@ public class LeaveFrame extends javax.swing.JDialog {
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel15)
                             .addComponent(d2cb, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(68, Short.MAX_VALUE))
+                .addContainerGap(66, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 330, -1, 240));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, -1, 240));
 
-        jButton1.setBackground(new java.awt.Color(0, 51, 102));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton1.setBackground(new java.awt.Color(250, 190, 44));
+        jButton1.setFont(new java.awt.Font("Thonburi", 1, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Apply");
         jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -360,10 +383,10 @@ public class LeaveFrame extends javax.swing.JDialog {
                 applybtn(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 580, 104, 30));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 580, 104, 30));
 
-        jButton2.setBackground(new java.awt.Color(0, 51, 102));
-        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton2.setBackground(new java.awt.Color(250, 190, 44));
+        jButton2.setFont(new java.awt.Font("Thonburi", 1, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Close");
         jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -372,7 +395,7 @@ public class LeaveFrame extends javax.swing.JDialog {
                 Close(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 580, 94, 30));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 580, 94, 30));
         getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 630));
 
         pack();

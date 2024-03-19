@@ -111,80 +111,61 @@ public class ViewRecordFrame extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel1.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel1.setText("Employee Number:");
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel2.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel2.setText("Last Name: ");
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel3.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel3.setText("First Name:");
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel4.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel4.setText("Birthday:");
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel5.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel5.setText("Address:");
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel6.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel6.setText("Phone Number:");
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel7.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel7.setText("SSS Number:");
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel8.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel8.setText("Philhealth Number:");
 
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel9.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel9.setText("TIN Number:");
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel10.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel10.setText("PAGIBIG Number:");
 
-        jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel11.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel11.setText("Status:");
 
-        jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel12.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel12.setText("Position:");
 
-        jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel13.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel13.setText("Immediate Supervisor:");
 
-        jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel14.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel14.setText("Basic Salary:");
 
-        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel15.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel15.setText("Rice Subsidy:");
 
-        jLabel16.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel16.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel16.setText("Phone Allowance:");
 
-        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel17.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel17.setText("Clothing Allowance:");
 
-        jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel18.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel18.setText("Semi-monthly Rate:");
 
-        jLabel19.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel19.setFont(new java.awt.Font("Thonburi", 0, 12)); // NOI18N
         jLabel19.setText("Hourly Rate:");
 
         basicsalarytf.addActionListener(new java.awt.event.ActionListener() {
@@ -193,8 +174,8 @@ public class ViewRecordFrame extends javax.swing.JDialog {
             }
         });
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 102));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton1.setBackground(new java.awt.Color(250, 190, 44));
+        jButton1.setFont(new java.awt.Font("Thonburi", 1, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Update");
         jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -204,8 +185,8 @@ public class ViewRecordFrame extends javax.swing.JDialog {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(0, 0, 102));
-        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton2.setBackground(new java.awt.Color(250, 190, 44));
+        jButton2.setFont(new java.awt.Font("Thonburi", 1, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Close");
         jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -311,8 +292,8 @@ public class ViewRecordFrame extends javax.swing.JDialog {
                 .addComponent(semratetf, javax.swing.GroupLayout.PREFERRED_SIZE, 387, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(15, 15, 15)
-                .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(65, 65, 65)
+                .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(52, 52, 52)
                 .addComponent(hourlyratetf, javax.swing.GroupLayout.PREFERRED_SIZE, 387, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(200, 200, 200)
